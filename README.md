@@ -2,6 +2,7 @@
 An inventory system for Zus Coffee Brunei, never deployed
 
 ## SQL file is provided for the MyPHPAdmin database
+Use XAMPP to access on browser
 
 ## Disclaimer
 
