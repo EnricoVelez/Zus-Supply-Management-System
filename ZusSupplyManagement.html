@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-gray-100 m-0">
+    <div class="bg-white p-6 rounded-lg shadow-md w-80 text-center relative">
+        <img src="logo-welcome.png" alt="Zus Coffee Logo" class="w-48 mx-auto mb-2">
+        <p class="text-lg text-gray-600 -mt-4 mb-4">Zus Supply Chain Management</p>
+        <h2 class="text-2xl font-semibold text-gray-800 mb-6">Login</h2>
+        <form action="ZusSupplyManagement.php" method="post" class="space-y-4">
+            <input 
+                type="text" 
+                name="username" 
+                placeholder="Username" 
+                required 
+                class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+            >
+            <input 
+                type="password" 
+                name="userpass" 
+                placeholder="Password" 
+                required 
+                class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+            >
+            <button 
+                type="submit" 
+                class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 rounded transition"
+            >
+                Login
+            </button>
+        </form>
+    </div>
+    <div class="mt-6 text-sm text-gray-500 text-center">
+        &copy; 2025 Zus Coffee. All rights reserved.
+    </div>
+</body>
+</html>
