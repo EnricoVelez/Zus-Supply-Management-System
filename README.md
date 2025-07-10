@@ -1,5 +1,7 @@
 # Zus-Supply-Management-System
 An inventory system for Zus Coffee Brunei, never deployed
+SQL file is provided for the MyPHPAdmin database
+
 ## Disclaimer
 
 This project was originally developed for Zus Coffee but was never deployed or used.  
