@@ -228,10 +228,10 @@ CREATE TABLE `supply_mgmt` (
 --
 
 INSERT INTO `supply_mgmt` (`userID`, `userFullName`, `username`, `userpass`, `useremail`, `role`, `branch`) VALUES
-(1, 'Enrico Velez', 'enricovelez', 'enrico123', 'enricolouisvelez@gmail.com', 'supply chain employee', 'Setia Point'),
+(1, 'Zus Supply Chain Employee, 'ZusSCEmployee1', '12345', 'example123@gmail.com', 'supply chain employee', 'Setia Point'),
 (2, 'Zus Employee 1', 'ZusEmployee1', '12345', '', 'employee', 'The Curve'),
-(3, 'Micheal Loh', 'michealloh', 'Admin1234', '', 'super admin', 'Office'),
-(4, 'Ridhwan', 'Ridhwan (8372312)', '12345', '', 'employee', 'Setia Point');
+(3, 'Zus Super Admin', 'SuperAdmin', 'Admin1234', '', 'super admin', 'Office'),
+(4, 'Sample1', 'Sample1', '12345', '', 'employee', 'Setia Point');
 
 --
 -- Indexes for dumped tables
